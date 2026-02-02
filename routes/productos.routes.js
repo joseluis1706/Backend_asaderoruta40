@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
 
 // 💾 POST guardar productos (admin)
 router.post('/', (req, res) => {
-    console.log('BODY RECIBIDO 👉', req.body);
+   // console.log('BODY RECIBIDO 👉', req.body);
     try {
         let productos = req.body;
 
